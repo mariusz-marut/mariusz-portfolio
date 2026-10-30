@@ -20,7 +20,7 @@ Potem otwórz [http://127.0.0.1:8080/](http://127.0.0.1:8080/).
 | `style.css` | Wygląd |
 | `lang.js` | Przełącznik PL / EN |
 | `aktualnosci.js` | Karty Aktualności |
-| `aktualnosci.json` | Treść kart (na razie pusta) |
+| `aktualnosci.json` | Treść kart Aktualności |
 | `zdjecie.png` | Zdjęcie w kolumnie kontaktu |
 | `Mariusz_Marut_CV_PL.pdf` | CV po polsku, link „Pobierz CV” |
 | `Mariusz_Marut_CV_EN.pdf` | CV po angielsku, link „Download CV” |

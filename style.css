@@ -325,8 +325,6 @@ h1.page-title {
 .feed-card {
   display: flex;
   flex-direction: column;
-  height: 335px;
-  overflow: hidden;
   padding: 12px;
   background: #ffffff;
   border: 1px solid #e5eaf1;
@@ -386,10 +384,15 @@ main a.feed-card:hover {
 }
 
 .feed-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   margin: 8px 0 0;
   font-size: 14px;
   line-height: 20px;
   color: #1e2939;
+  white-space: pre-line;
 }
 
 .feed-more {
